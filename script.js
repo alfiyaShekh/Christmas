@@ -1,3 +1,16 @@
+ function openPopup() {
+    document.getElementById("popup").style.display = "block";
+    const navbar=document.querySelector("nav")
+    navbar.style.display="none"
+  }
+
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+    const navbar=document.querySelector("nav")
+    navbar.style.display=""
+  }
+
+
 
 const btn=document.querySelector(".submit")
 const nameRegex  = /^[A-Za-z]{2,30}$/;
@@ -40,13 +53,7 @@ btn.addEventListener('click',(e)=>{
    return true;
 })
 
- function openPopup() {
-    document.getElementById("popup").style.display = "block";
-  }
 
-  function closePopup() {
-    document.getElementById("popup").style.display = "none";
-  }
 
 const sign=document.querySelector(".sign-up")
 sign.addEventListener('click',(e)=>{
