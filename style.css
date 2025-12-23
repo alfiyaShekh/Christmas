@@ -26,9 +26,11 @@ body{
 }
 .nav{
     z-index: 1000;
-    height: 60px;
+    height: 65px;
     position: fixed;
     width: 100%;
+    border-radius: 5px;
+    
     
 
 }
@@ -36,6 +38,7 @@ body{
     /* background-color: rgb(12, 65, 100); */
     background-color: white;
     color: black;
+    
 }
 .Christmas-text{
   padding-top: 10%;
@@ -243,7 +246,7 @@ textarea{
 }
 
 .foot{
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: rgb(13, 5, 90);
     color: white;
@@ -281,3 +284,10 @@ textarea{
   .sign-up{
 
   }
+
+
+  #home,
+#about,
+#contact {
+  scroll-margin-top: 70px;
+}
